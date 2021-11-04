@@ -11,7 +11,7 @@
 		C8B03E3D2734495B0033239D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B03E3C2734495B0033239D /* ContentView.swift */; };
 		C8B03E3F2734495F0033239D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B03E3E2734495F0033239D /* Assets.xcassets */; };
 		C8B03E422734495F0033239D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B03E412734495F0033239D /* Preview Assets.xcassets */; };
-		C8B03E4C27344A490033239D /* FrameworkDeGraficos in Frameworks */ = {isa = PBXBuildFile; productRef = C8B03E4B27344A490033239D /* FrameworkDeGraficos */; };
+		C8B03E692734824E0033239D /* Everest in Frameworks */ = {isa = PBXBuildFile; productRef = C8B03E682734824E0033239D /* Everest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,6 @@
 		C8B03E3C2734495B0033239D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8B03E3E2734495F0033239D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8B03E412734495F0033239D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C8B03E4927344A200033239D /* FrameworkDeGraficos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FrameworkDeGraficos; path = ../../NC4/FrameworkDeGraficos; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B03E4C27344A490033239D /* FrameworkDeGraficos in Frameworks */,
+				C8B03E692734824E0033239D /* Everest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,10 +37,8 @@
 		C8B03E2E2734495B0033239D = {
 			isa = PBXGroup;
 			children = (
-				C8B03E4827344A200033239D /* Packages */,
 				C8B03E392734495B0033239D /* LinesExample */,
 				C8B03E382734495B0033239D /* Products */,
-				C8B03E4A27344A490033239D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,21 +69,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C8B03E4827344A200033239D /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				C8B03E4927344A200033239D /* FrameworkDeGraficos */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
-		C8B03E4A27344A490033239D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,7 +86,7 @@
 			);
 			name = LinesExample;
 			packageProductDependencies = (
-				C8B03E4B27344A490033239D /* FrameworkDeGraficos */,
+				C8B03E682734824E0033239D /* Everest */,
 			);
 			productName = LinesExample;
 			productReference = C8B03E372734495B0033239D /* LinesExample.app */;
@@ -134,6 +116,9 @@
 				Base,
 			);
 			mainGroup = C8B03E2E2734495B0033239D;
+			packageReferences = (
+				C8B03E672734824E0033239D /* XCRemoteSwiftPackageReference "NC4" */,
+			);
 			productRefGroup = C8B03E382734495B0033239D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -367,10 +352,22 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		C8B03E672734824E0033239D /* XCRemoteSwiftPackageReference "NC4" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Developer-Academy-Mackenzie-2021-2022/NC4";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		C8B03E4B27344A490033239D /* FrameworkDeGraficos */ = {
+		C8B03E682734824E0033239D /* Everest */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = FrameworkDeGraficos;
+			package = C8B03E672734824E0033239D /* XCRemoteSwiftPackageReference "NC4" */;
+			productName = Everest;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
