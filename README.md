@@ -2,7 +2,7 @@
 
 *O gráfico de linhas é uma representação gráfica da associação entre pares de dados. Para criar esse gráfico é primeiro necessário criar objetos do tipo Line. Esses são constituídos de um vetor de CGPoints (points), que serão os pares de dados representados, além de algumas customizações visuais, tais como cor (color), largura da linha (lineWidth), e título da linha (lineTitle).*
 
-Com uma coleção desses objetos Line e os marcadores dos eixos X e Y (xLabels e yLabels) é então construído o gráfico de linhas e suas respectivas legendas.
+*Com uma coleção desses objetos Line e os marcadores dos eixos X e Y (xLabels e yLabels) é então construído o gráfico de linhas e suas respectivas legendas.*
 
 <img width="400" alt="Screen Shot 2021-11-04 at 22 07 29" src="https://user-images.githubusercontent.com/48024795/140445487-9bdf3551-624f-45d9-9828-2828908b8e03.png"><img width="400" alt="Screen Shot 2021-11-04 at 22 07 37" src="https://user-images.githubusercontent.com/48024795/140445514-baab8957-ee09-44bd-9f8e-a6cf746a6161.png">
 <img width="400" alt="Screen Shot 2021-11-04 at 22 08 15" src="https://user-images.githubusercontent.com/48024795/140445552-ca244e81-0e5d-451e-9c1f-23cf2094d8db.png">
